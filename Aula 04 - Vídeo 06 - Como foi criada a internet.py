@@ -2,7 +2,14 @@ print('''
 
     Seja bem-vindo a prova da Aula 04 - Como foi criada a internet do curso de HTML/CSS do Guanabara. 
     
-    Você responderá algumas perguntas, e saberá o quanto entende do assunto.
+    Tutorial para memorizar todo o conteúdo:
+    - Você vai responder as perguntas de acordo com as respostas configuradas no VSCode;
+    - As respostas tem de ser exatamente igual, A e a são diferentes, se atente a isso;
+    - Toda vez que você não lembrar ou errar, você vai ler a resposta certa no código do programa 5x e fechar o programa;
+    - Repita todo o procedimento até que acerte todas as questões e por fim você terá memorizado todo o conteúdo da aula;
+    - Não deixe de praticar, não é por quê acertou todas que já é motivo pra pular para a próxima, sempre pratique mesmo que
+    você avance a próxima aula, memorize a próxima aula e continue praticando essa que você já acha q memorizou;
+    - Quando se sentir confiante em responder exatamente todas as perguntas toda vez q abre o programa e acerta todas, foco nas próximas aulas.
     
     ''')
 print('Vamos começar!')
