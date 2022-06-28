@@ -1,211 +1,173 @@
 print(''' 
 
-    Seja bem-vindo a prova da Aula 04 - Como foi criada a internet do curso de HTML/CSS do Guanabara. 
+    Seja bem-vindo a prova da Aula 01 - História da internet.pdf do curso de HTML/CSS do Guanabara. 
     
-    Tutorial para memorizar todo o conteúdo:
-    - Você vai responder as perguntas de acordo com as respostas configuradas no VSCode;
-    - As respostas tem de ser exatamente igual, A e a são diferentes, se atente a isso;
-    - Toda vez que você não lembrar ou errar, você vai ler a resposta certa no código do programa 5x, feche o programa e recomece;
-    - Repita todo o procedimento até que acerte todas as questões e por fim você terá memorizado todo o conteúdo da aula;
-    - Não deixe de praticar, não é por quê acertou todas que já é motivo pra pular para a próxima, sempre pratique mesmo que
-    você avance a próxima aula, memorize a próxima aula e continue praticando essa que você já acha q memorizou;
-    - Quando se sentir confiante em responder exatamente todas as perguntas toda vez q abre o programa e acerta todas, foco nas próximas aulas.
+    Você responderá 10 perguntas e verá o quanto entende do assunto.
     
     ''')
 print('Vamos começar!')
 
-print('1 - Em qual ano e em que período surgiu a internet?')
+print('''1 - Em qual período Histórico da humanidade a Internet surgiu?
+A) Durante a 2º Guerra Mundial
+B) Durante a Guerra dos 100 anos
+C) Durante a Guerra Fria
+D) Durante a Guerra do Golfo
+''')
 
-resposta = input('Digite sua resposta: ')
+resposta = input('''Qual é a resposta?
+''')
 pontos1 = 0
 
-if resposta == '1949, Guerra Fria':
-    print('Acertou')
-    pontos1 += 5
+if resposta == 'C) Durante a Guerra Fria':
+    print("Acertou")
+    pontos1 += 1
 
 print('''
-2 - A Guerra Fria era entre quais países?''')
+2 - A agência militar americana DARPA foi a responsável pelo início dos estudos que deram origem à Internet. Logo no início, a rede teve um nome. Você sabe qual foi?
+A) DARPANET
+B) ARPANET
+C) MILNET
+D) NSFNET
+''')
 
-resposta = input('Digite sua resposta: ')
+resposta = input('''Qual é a resposta?
+''')
 pontos2 = 0
 
-if resposta == 'EUA e União Soviética':
-    print('Acertou')
-    pontos2 += 5
+if resposta == 'B) ARPANET':
+    print("Acertou")
+    pontos2 += 1
 
 print('''
-3 - Em 1969 qual foi um grande feito pela União Soviética?''')
+3 - A primeira transmissão registrada na rede foi no ano de _____. A primeira palavra enviada de um computador para outro foi _____.
+A) 1949 / HELLO
+B) 1955 / FIRST
+C) 1962 / WORKS
+D) 1969 / LOGIN
+''')
 
-resposta = input('Digite sua resposta: ')
+resposta = input('''Qual é a resposta?
+''')
 pontos3 = 0
 
-if resposta == 'Foi lançado o primeiro satélite chamado Sputnik':
+if resposta == 'D) 1969 / LOGIN':
     print('Acertou')
-    pontos3 += 5
+    pontos3 += 1
 
 print('''
-4 - Qual era a função do Sputnik?''')
+4 - A primeira versão da rede que deu origem à Internet interligava quantos computadores?
+A) 4 computadores
+B) 40 computadores
+C) 4 mil computadores
+D) 400 mil computadores
+''')
 
-resposta = input('Digite sua resposta: ')
+resposta = input('''Qual é a resposta?
+''')
 pontos4 = 0
 
-if resposta == 'Uma versão teste, dar uma volta completa na terra e depois cair na água':
+if resposta == 'A) 4 computadores':
     print('Acertou')
-    pontos4 += 5
+    pontos4 += 1
 
 print('''
-5 - Qual o nome do presidente em 1969 dos EUA e o que ele fundou?''')
+5 - O primeiro protocolo usado na transmissão de dados entre os controladores tinha o nome de: 
+A) TCP
+B) NetBEUI
+C) NCP 
+D) IP 
+''')
 
-resposta = input('Digite sua resposta: ')
+resposta = input('''Qual é a resposta?
+''')
 pontos5 = 0
 
-if resposta == 'Dwight Eisenhower, DARPA, Desenvolvimento de Tecnologia pra Guerra':
+if resposta == 'C) NCP':
     print('Acertou')
-    pontos5 += 5
+    pontos5 += 1
 
 print('''
-6 - Em 1969 qual foi a primeira criação vindo da DARPA e qual objetivo?''')
+6 - No dia 1 de Janeiro do ano de _____ o TCP/IP passou a ser o único protocolo aceito pela Internet. Esse dia ficou conhecido como ______.
+A) 1973 / Turn Point 
+B) 1983 / Flag Day
+C) 1985 / New Hope
+D) 1988 / Brand Tech
+''')
 
-resposta = input('Digite sua resposta: ')
+resposta = input('''Qual é a resposta?
+''')
 pontos6 = 0
 
-if resposta == 'ARPANET, objetivo de criar um backup dos computadores para ambas as bases militares':
+if resposta == 'B) 1983 / Flag Day':
     print('Acertou')
-    pontos6 += 5
+    pontos6 += 1
 
 print('''
-7 - Qual era o nome dos 4 computadores que estavam tentando comunicar entre si na época?''')
+7 - O conjunto de protocolos TCP/IP foi criado por um funcionário da DARPA e um pesquisador da universidade de Stanford. São eles, respectivamente:
+A) Vint Cerf e Robert Kahn
+B) Robert Kahn e Tim Berners-Lee 
+C) Tim Berners-Lee e Vint Cerf
+D) Robert Kahn e Vint Cerf
+''')
 
-resposta = input('Digite sua resposta: ')
+resposta = input('''Qual é a resposta?
+''')
 pontos7 = 0
 
-if resposta == 'SDS90, SDS Sigma7, Dec PDP-10, IBM 370/75':
+if resposta == 'D) Robert Kahn e Vint Cerf':
     print('Acertou')
-    pontos7 += 5
+    pontos7 += 1
 
 print('''
-8 - O que acontecia quando 2 computadores dos 4 começavam a se comunicar?''')
+8 - O cientista inglês Tim Berners-Lee foi o responsável pela criação de três coisas muito importantes para a Internet. Foram elas:
+A) a linguagem HTML, o protocolo HTTP e o primeiro navegador Mosaic 
+B) o TCP/IP, o primeiro navegador Mosaic e o nome WWW
+C) a linguagem HTML, o protocolo HTTP e o nome WWW
+D) o nome WWW, o primeiro navegador Mosaic e a linguagem HTML
+''')
 
-resposta = input('Digite sua resposta: ')
+resposta = input('''Qual é a resposta?
+''')
 pontos8 = 0
 
-if resposta == 'A rede inteira dos 4 computadores parava e só funcionavam entre os 2 que estavam se comunicando':
+if resposta == 'C) a linguagem HTML, o protocolo HTTP e o nome WWW':
     print('Acertou')
-    pontos8 += 5
+    pontos8 += 1
 
 print('''
-9 - Qual foi o primeiro protocolo da internet criado em 1972?''')
+9 - O primeiro backbone brasileiro surgiu em _____ para acesso acadêmico, mas só foi liberado para empresas em _____.
+A) 1991 / 1995
+B) 1990 / 1997
+C) 1989 / 1991
+D) 1985 / 1995
+''')
 
-resposta = input('Digite sua resposta: ')
+resposta = input('''Qual é a resposta?
+''')
 pontos9 = 0
 
-if resposta == 'NCP (Networking Control Protocol)':
+if resposta == 'A) 1991 / 1995':
     print('Acertou')
-    pontos9 += 5
+    pontos9 += 1
 
 print('''
-10 - Qual foi a criação de Bob Kahn em 1972 e qual o objetivo?''')
+10 - Atualmente, a Internet Brasileira atinge quantos estados?
+A) 19 estados, além do Distrito Federal
+B) 23 estados, além do Distrito Federal
+C) 25 estados, além do Distrito Federal
+D) 26 estados, além do Distrito Federal
+''')
 
-resposta = input('Digite sua resposta: ')
+resposta = input('''Qual é a resposta?
+''')
 pontos10 = 0
 
-if resposta == 'TCP (Transfer Control Protocol), objetivo de solucionar o problema do NCP de ter que parar a rede inteira para a comunicação':
+if resposta == 'D) 26 estados, além do Distrito Federal':
     print('Acertou')
-    pontos10 += 5
-
-print('''
-11 - Qual foi a criação de Vint Cerf em 1972 e qual o objetivo?''')
-
-resposta = input('Digite sua resposta: ')
-pontos11 = 0
-
-if resposta == 'IP (Internetworking Protocol), afim de dar identificação as máquinas':
-    print('Acertou')
-    pontos11 += 5
-
-print('''
-12 - Quais pesquisas foram juntadas em 1972 e foi batizada em qual nome?''')
-
-resposta = input('Digite sua resposta: ')
-pontos12 = 0
-
-if resposta == 'Pesquisa de Bob Kahn e Vint Cerf, TCP/IP':
-    print('Acertou')
-    pontos12 += 5
-
-print('''
-13 - ARPANET foi dividida em quantas partes e quais são elas?''')
-
-resposta = input('Digite sua resposta: ')
-pontos13 = 0
-
-if resposta == 'Três partes, MILNET, NSFNET, Comerciais':
-    print('Acertou')
-    pontos13 += 5
-
-print('''
-14 - Internet veio daonde e pra quê?''')
-
-resposta = input('Digite sua resposta: ')
-pontos14 = 0
-
-if resposta == 'ARPANET, que veio da Guerra para proteger centros militares':
-    print('Acertou')
-    pontos14 += 5
-
-print('''
-15 - Como era a internet no ínicio?''')
-
-resposta = input('Digite sua resposta: ')
-pontos15 = 0
-
-if resposta == 'Tela preta, com letras verdes e com o protocolo chamado Gopher':
-    print('Acertou')
-    pontos15 += 5
-
-print('''
-16 - Quais foram as 3 criações do inglês Tim Berners-Lee em 1993, em Genebra?''')
-
-resposta = input('Digite sua resposta: ')
-pontos16 = 0
-
-if resposta == 'http:// (hyper text transfer protocol), HTML </> (hyper text marcap lenguage), www (world wide web)':
-    print('Acertou')
-    pontos16 += 5
-
-print('''
-17 - Qual foi a criação de Marc Andressen?''')
-
-resposta = input('Digite sua resposta: ')
-pontos17 = 0
-
-if resposta == 'O primeiro navegador chamado Mosaic, compatível com as criações de Tim Berners-Lee':
-    print('Acertou')
-    pontos17 += 5
-
-print('''
-18 - World Wide Web, o que é?''')
-
-resposta = input('Digite sua resposta: ')
-pontos18 = 0
-
-if resposta == 'Rede de alcance mundial que englobam todos protocolos especializados em HTTP':
-    print('Acertou')
-    pontos18 += 5
-
-print('''
-19 - www é uma rede ou sub-rede?''')
-
-resposta = input('Digite sua resposta: ')
-pontos19 = 0
-
-if resposta == 'É uma sub-rede que está dentro da grande rede chamada internet':
-    print('Acertou')
-    pontos19 += 5
-
+    pontos10 += 1
 
 
 print('''
-Sua pontuação final é''', pontos1+pontos2+pontos3+pontos4+pontos5+pontos6+pontos7+pontos8+pontos9+pontos10+pontos11+pontos12+pontos13+pontos14+pontos15+pontos16+pontos17+pontos18+pontos19)
-print('Se você tirou 95, PARABÉNS, você acertou todas!')
+Sua pontuação final é''', pontos1+pontos2+pontos3+pontos4+pontos5+pontos6+pontos7+pontos8+pontos9+pontos10)
+print('Se você tirou 10, PARABÉNS, você acertou todas!')
 input("Pressione <enter> para encerrar!")
