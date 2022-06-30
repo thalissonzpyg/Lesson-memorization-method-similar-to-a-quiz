@@ -1,6 +1,6 @@
 print(''' 
 
-    Seja bem-vindo a prova da Aula 03 - Como foi criada a internet do curso de HTML/CSS do Guanabara. 
+    Seja bem-vindo a prova da Aula 03 - Como funciona HTML e CSS do curso de HTML/CSS do Guanabara. 
     
     Você responderá 10 perguntas e verá o quanto entende do assunto.
     
