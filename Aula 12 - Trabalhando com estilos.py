@@ -24,7 +24,7 @@ if resposta == 'C) Cascading Style Sheets':
 
 print('''
 2 - Ao configurar os estilos com a técnica inline, as propriedades CSS são colocadas em que local?
-A) Dentro da própria tag HTML, em um parâmetro chamado style
+A) Dentro da própia tag HTML, em um parâmetro chamado style
 B) Dentro da área <head> do documento HTML, na área delimitada por <style>
 C) Em um arquivo separado dentro da própria pasta onde o documento HTML está
 D) Dentro de uma pasta especial chamada /style que fica no diretório atual do site 
