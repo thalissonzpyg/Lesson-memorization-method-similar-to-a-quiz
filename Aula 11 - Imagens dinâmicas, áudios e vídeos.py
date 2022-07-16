@@ -98,14 +98,14 @@ resposta = input('''Qual é a resposta?
 ''')
 pontos6 = 0
 
-if resposta == 'C) player"':
+if resposta == 'C) player':
     print('Acertou')
     pontos6 += 1
 
 print('''
 7 - Quando inserimos um áudio no site, qual é o comportamento padrão do navegador em relação à carga do conteúdo?
 A) o arquivo de áudio não será carregado até que o visitante aperte o Play
-B) o arquivo de áudio ser á completamente carregado, mesmo que nunca seja apertado o Play  
+B) o arquivo de áudio será completamente carregado, mesmo que nunca seja apertado o Play  
 C) os primeiros minutos de áudio serão carregados para facilitar a reprodução
 D) apenas os metadados do arquivo (informações básicas sobre o arquivo) serão carregados automaticamente 
 ''')
@@ -114,7 +114,7 @@ resposta = input('''Qual é a resposta?
 ''')
 pontos7 = 0
 
-if resposta == 'B) o arquivo de áudio ser á completamente carregado, mesmo que nunca seja apertado o Play':
+if resposta == 'B) o arquivo de áudio será completamente carregado, mesmo que nunca seja apertado o Play':
     print('Acertou')
     pontos7 += 1
 
@@ -146,7 +146,7 @@ resposta = input('''Qual é a resposta?
 ''')
 pontos9 = 0
 
-if resposta == 'C) .mp4 .m4v .webm .ogb':
+if resposta == 'C) .mp4 .m4v .webm .ogv':
     print('Acertou')
     pontos9 += 1
 
