@@ -34,7 +34,7 @@ resposta = input('''Qual é a resposta?
 ''')
 pontos2 = 0
 
-if resposta == 'A) Dentro da própia tag HTML, em um parâmetros chamado style':
+if resposta == 'A) Dentro da própia tag HTML, em um parâmetro chamado style':
     print("Acertou")
     pontos2 += 1
 
@@ -72,9 +72,7 @@ if resposta == 'D) <h1 style="color: blue">Título</h1>':
     pontos4 += 1
 
 print('''
-5 - Para usar a técnica de estilos
-internos, a tag <style> deve estar em
-que local?
+5 - Para usar a técnica de estilos internos, a tag <style> deve estar em que local?
 A) logo depois da tag HTML que queremos configurar
 B) dentro da área <head> do seu documento HTML
 C) no final do arquivo, logo depois do </body>
